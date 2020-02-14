@@ -270,14 +270,14 @@ hr{
 
 #work-content{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+ margin-bottom: 70px;
 }
 
 #work-content div{
     height: 400px;
-    width: 350px;
-    margin: 30px 0;
+    width: 530px;
+    margin: 30px 13px;
 
 }
 
@@ -292,6 +292,7 @@ hr{
 
 #work-content div img{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
