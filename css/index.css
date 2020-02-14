@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -56,6 +56,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+	padding: 2% 14%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +68,35 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* Styling of nav bar*/
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 30px 0;
+    align-items:center ;
+}
+
+.top img{
+    padding-bottom: 20px;
+}
+
+nav  .links a {
+    padding: 0 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/*end of nav bar styling*/
+
+/*hero jumba image styling*/
+
+.middle-img{
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -95,21 +128,130 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*styling about section*/
+
+.about{
+    margin-bottom: 30px;
+}
+
+hr{
+    border: 1px black dashed;
 }
 
 .bottom-content {
@@ -125,6 +267,74 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+#blog-content{
+    display: flex;
+    justify-content: space-between;
+ margin-bottom: 70px;
+}
+
+#blog-content div{
+    height: 400px;
+    width: 530px;
+    margin: 30px 13px;
+
+}
+
+#blog-content div button{
+    margin: 20px 0;
+    font-size: 15px;
+	background: none;
+    border: solid black 2px;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+#blog-content div img{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*about section styling*/
+
+#work-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ margin-bottom: 70px;
+}
+
+#work-content div{
+    height: 460px;
+    width: 370px;
+    margin-top: 30px;
+
+}
+
+#work-content div button{
+    margin: 20px 0;
+    font-size: 15px;
+	background: none;
+    border: solid black 2px;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+#work-content div h2{
+    margin-top: 30px;
+}
+
+
+
+
+/*work together styling*/
+
+.work-together{
+    margin-bottom: 30px;
+    margin-top: 48px;
+}
+
+/*footer*/
 
 footer {
     width: 100%;
