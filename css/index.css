@@ -269,16 +269,42 @@ hr{
     padding-right: 0;
 }
 
-.work-content{
+#work-content{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.work-content div{
-    height: 60px;
-    width: 100px;
+#work-content div{
+    height: 400px;
+    width: 350px;
+    margin: 30px 0;
 
 }
+
+
+#work-content div button{
+    margin: 20px 0;
+    font-size: 15px;
+	background: none;
+    border: solid black 2px;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+#work-content div img{
+    margin-bottom: 20px;
+}
+
+
+/*work together styling*/
+
+.work-together{
+    margin-bottom: 30px;
+    margin-top: 48px;
+
+}
+
 
 
 
