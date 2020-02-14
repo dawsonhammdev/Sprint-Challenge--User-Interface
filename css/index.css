@@ -254,7 +254,6 @@ hr{
     border: 1px black dashed;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -282,7 +281,6 @@ hr{
 
 }
 
-
 #work-content div button{
     margin: 20px 0;
     font-size: 15px;
@@ -302,11 +300,9 @@ hr{
 .work-together{
     margin-bottom: 30px;
     margin-top: 48px;
-
 }
 
-
-
+/*footer*/
 
 footer {
     width: 100%;
