@@ -268,16 +268,46 @@ hr{
     padding-right: 0;
 }
 
-#work-content{
+#blog-content{
     display: flex;
     justify-content: space-between;
  margin-bottom: 70px;
 }
 
-#work-content div{
+#blog-content div{
     height: 400px;
     width: 530px;
     margin: 30px 13px;
+
+}
+
+#blog-content div button{
+    margin: 20px 0;
+    font-size: 15px;
+	background: none;
+    border: solid black 2px;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+#blog-content div img{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*about section styling*/
+
+#work-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ margin-bottom: 70px;
+}
+
+#work-content div{
+    height: 460px;
+    width: 370px;
+    margin-top: 30px;
 
 }
 
@@ -290,10 +320,11 @@ hr{
     border-radius: 8px;
 }
 
-#work-content div img{
-    margin-bottom: 20px;
-    text-align: center;
+#work-content div h2{
+    margin-top: 30px;
 }
+
+
 
 
 /*work together styling*/
