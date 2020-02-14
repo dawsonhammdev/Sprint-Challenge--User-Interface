@@ -244,6 +244,17 @@ nav  .links a {
     justify-content: center;
 }
 
+/*styling about section*/
+
+.about{
+    margin-bottom: 30px;
+}
+
+hr{
+    border: 1px black dashed;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -257,6 +268,19 @@ nav  .links a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.work-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-content div{
+    height: 60px;
+    width: 100px;
+
+}
+
+
 
 footer {
     width: 100%;
